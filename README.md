@@ -1,68 +1,37 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Instagram Copy
 
-## Available Scripts
+This project was to make a copy of an Instagram login page and the main page with simple features.
 
-In the project directory, you can run:
+## Languages Used
 
-### `yarn start`
+React/CSS/Javascript/HTML
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Details
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### Feature #1
 
-### `yarn test`
+Login button will change color when both the username and password input boxes are filled.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Feature #2
 
-### `yarn build`
+When user inputs the username and deletes the username a warning sign will popup to fill in their user id.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Feature #3
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+When user inputs the correct user id ("food_23") and password ("password") and click the log in button it will take them to the main page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Feature #4
 
-### `yarn eject`
+User is able to write a comment in the feed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Feature #5
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+User is able to search through the list of their followers and will highlight the value in the search bar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Screenshots
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Login Page](Users/hyungmokkim/Desktop/README%20Images/Westagram%20React%20README/login.png)
+Login Page
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![Main Page](Users/hyungmokkim/Desktop/README%20Images/Westagram%20React%20README/mainpage.png)
+Main Page
