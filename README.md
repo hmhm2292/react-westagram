@@ -28,6 +28,12 @@ User is able to write a comment in the feed.
 
 User is able to search through the list of their followers and will highlight the value in the search bar.
 
-![Login](login.png)
+## ScreenShots
 
-![Mainpage](mainpage.png)
+![Login](https://cdn-images-1.medium.com/max/1200/1*QUm57UWLoHKeYemDmCzvvQ.png)
+
+Login page
+
+![Mainpage](https://cdn-images-1.medium.com/max/800/1*zeEZGGHRut8iv_2MYk1bPw.png)
+
+Main page
