@@ -4,7 +4,7 @@ This project was to make a copy of an Instagram login page and the main page wit
 
 ## Languages Used
 
-React/CSS/Javascript/HTML
+React/CSS/Sass/HTML/Javascript
 
 ## Details
 
