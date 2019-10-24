@@ -28,10 +28,4 @@ User is able to write a comment in the feed.
 
 User is able to search through the list of their followers and will highlight the value in the search bar.
 
-## Screenshots
 
-![Login Page](Users/hyungmokkim/Desktop/README%20Images/Westagram%20React%20README/login.png)
-Login Page
-
-![Main Page](Users/hyungmokkim/Desktop/README%20Images/Westagram%20React%20README/mainpage.png)
-Main Page
