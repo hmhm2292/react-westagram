@@ -1,4 +1,5 @@
 import React from "react";
+import "./_SignUp.scss";
 
 class SignUp extends React.Component {
   render() {

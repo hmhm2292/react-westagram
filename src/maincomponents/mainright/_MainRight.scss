@@ -1,0 +1,106 @@
+.mainRight {
+  margin-left: 10px;
+  max-width: 293px;
+}
+
+.post,
+.follow {
+  border: none;
+  color: #3897f0;
+  font-weight: 600;
+}
+
+.follow {
+  margin-right: 13px;
+}
+
+.mainUserId,
+.storiesList,
+.suggestionsList {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.storiesBox {
+  height: 223px;
+}
+
+.storiesAndWatch,
+.suggestionsSeeAll {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  padding-top: 4px;
+}
+
+.storiesLabel,
+.suggestionsLabel {
+  color: #999999;
+  margin-left: 12px;
+}
+
+.watchAll,
+.seeAll {
+  border: none;
+  padding: 0px;
+  margin-right: 12px;
+}
+
+.suggestionsForYouBox {
+  height: 200px;
+  margin: 12px 0px;
+}
+
+.storiesBox,
+.suggestionsForYouBox {
+  overflow: scroll;
+}
+
+.seeAll {
+  font-size: 12px;
+}
+
+.iconButton {
+  border: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.storiesList,
+.suggestionsList {
+  margin-top: 12px;
+}
+
+.follow {
+  font-size: 12px;
+}
+
+.referenceBox {
+  height: 39px;
+}
+
+.referenceList {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.reference {
+  color: #c7c7c7;
+  font-size: 11px;
+}
+
+.reference:after {
+  content: "•";
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.reference:last-child::after {
+  content: none;
+}

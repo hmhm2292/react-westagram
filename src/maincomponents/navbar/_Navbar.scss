@@ -1,0 +1,94 @@
+.navBar {
+  max-height: 77px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0975);
+}
+
+.navBarGroup {
+  width: 1010px;
+  display: flex;
+  padding: 26px 20px;
+}
+
+.navBarLeft {
+  display: flex;
+  width: 40%;
+}
+
+.cameraLogo img {
+  height: 24px;
+  width: 24px;
+  margin-top: 2px;
+}
+
+.splitBar {
+  background-color: #262626;
+  height: 28px;
+  margin: 0 16px;
+  width: 0.55px;
+}
+
+.instaLogo img {
+  height: 33px;
+  width: 104px;
+  margin-top: 1px;
+}
+
+.navSearchBar {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 215px;
+}
+
+.searchBar {
+  padding: 5px 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+.allMyFollowers {
+  display: none;
+  overflow: scroll;
+}
+
+.followers {
+  padding: 20px;
+  margin: 0px;
+  font-weight: 600;
+  border-bottom: 1px solid #efefef;
+}
+
+.navBarRight {
+  display: flex;
+  justify-content: flex-end;
+  width: 40%;
+}
+
+.explore,
+.myActivity,
+.myAccount {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.explore {
+  height: 25px;
+  width: 25px;
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/explore.png");
+}
+
+.myActivity {
+  height: 26px;
+  width: 26px;
+  margin-right: 28px;
+  margin-left: 28px;
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/heart.png");
+}
+
+.myAccount {
+  height: 25px;
+  width: 25px;
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/bearu/profile.png");
+}

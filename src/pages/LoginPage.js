@@ -1,15 +1,17 @@
 import React from "react";
-import "../LoginPage.css";
-import LoginInfo from "../logincomponents/LoginInfo";
-import SignUp from "../logincomponents/SignUp";
-import GetTheApp from "../logincomponents/GetTheApp";
+import "../styles/reset.scss";
+import LoginInfo from "../logincomponents/logininfo/LoginInfo";
+import SignUp from "../logincomponents/signup/SignUp";
+import GetTheApp from "../logincomponents/gettheapp/GetTheApp";
 
 function LoginPage() {
   return (
-    <div className="loginPage">
-      <LoginInfo />
-      <SignUp />
-      <GetTheApp />
+    <div className="login">
+      <div className="loginComponents">
+        <LoginInfo />
+        <SignUp />
+        <GetTheApp />
+      </div>
     </div>
   );
 }

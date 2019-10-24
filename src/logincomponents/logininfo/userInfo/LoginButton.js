@@ -2,7 +2,8 @@ import React from "react";
 import { withRouter } from "react-router-dom";
 
 class LoginButton extends React.Component {
-  goToMainPage() {
+  goToMainPage(event) {
+    event.preventDefault();
     const { userInputValue, passwordInputValue, history } = this.props;
     if (userInputValue === "food_23" && passwordInputValue === "password") {
       history.push("/mainpage");

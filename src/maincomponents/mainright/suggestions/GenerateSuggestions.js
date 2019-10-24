@@ -9,7 +9,7 @@ export class GenerateSuggestions extends Component {
           <img className="userIcon" src={userPic} alt={alt} />
         </button>
         <div className="userId">{userId}</div>
-        <button className="follow">Follow</button>
+        <div className="follow">Follow</div>
       </div>
     );
   }

@@ -6,13 +6,13 @@ export class WriteComment extends Component {
     return (
       <>
         <div className="typeYourComment">
-          <textarea
+          <input
             value={myComment}
             className="enterComment"
             name="myComment"
             placeholder="Add a comment..."
             onChange={onChange}
-          ></textarea>
+          />
         </div>
       </>
     );

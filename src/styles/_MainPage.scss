@@ -1,0 +1,56 @@
+%default-border {
+  border: 1px solid #e6e6e6;
+  border-radius: 1px;
+}
+
+.mainFeed,
+.storiesBox,
+.suggestionsForYouBox,
+.allMyFollowers {
+  @extend %default-border;
+  border-radius: 4px;
+}
+
+main {
+  padding: 60px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.userIcon {
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.userId,
+.likesCount,
+.watchAll,
+.storiesLabel,
+.suggestionsLabel,
+.seeAll {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.mainUserId .userIcon {
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+}
+
+.mainUserId .userId,
+.storiesList .userId,
+.suggestionsList .userId {
+  margin-left: 10px;
+}
+
+.iconButton .userIcon {
+  padding: 0px;
+}
+
+.suggestionsList .userId {
+  width: 165px;
+}

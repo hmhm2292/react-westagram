@@ -1,17 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "../maincomponents/navbar/Navbar";
 import Main from "../maincomponents/Main";
-import "../MainPage.css";
+import "../styles/_MainPage.scss";
+import "../styles/reset.scss";
 
-export class MainPage extends Component {
-  render() {
-    return (
-      <div className="MainPage">
-        <Navbar />
-        <Main />
-      </div>
-    );
-  }
+function MainPage() {
+  return (
+    <div className="MainPage">
+      <Navbar />
+      <Main />
+    </div>
+  );
 }
 
 export default MainPage;

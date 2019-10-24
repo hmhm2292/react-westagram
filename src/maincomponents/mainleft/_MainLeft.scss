@@ -1,0 +1,126 @@
+.mainLeft {
+  margin-right: 10px;
+}
+
+.mainFeed {
+  max-width: 614px;
+}
+
+.mainFeedTop {
+  display: flex;
+  padding: 10px;
+}
+
+.userAndOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 6px;
+  margin-right: 6px;
+}
+
+.optionIcon {
+  background-image: url("https://icon-library.net/images/3-dots-icon/3-dots-icon-24.jpg");
+  height: 14px;
+  width: 14px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.feedImage {
+  width: 100%;
+}
+
+.toolBar {
+  display: flex;
+  align-items: center;
+  padding: 0px 17px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+.likeButton,
+.commentButton,
+.shareButton,
+.bookmarkButton {
+  height: 24px;
+  width: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 18px;
+  border: none;
+}
+
+.likeButton {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/basic-user-interface-application/32/INSTAGRAM_ICON_SETS-04-512.png");
+  height: 26px;
+  width: 26px;
+}
+
+.commentButton {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/basic-user-interface-application/32/INSTAGRAM_ICON_SETS-06-512.png");
+}
+
+.shareButton {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/basic-user-interface-application/32/INSTAGRAM_ICON_SETS-21-512.png");
+}
+
+.bookmarkButton {
+  background-image: url("https://cdn3.iconfinder.com/data/icons/basic-user-interface-application/32/INSTAGRAM_ICON_SETS-07-512.png");
+  margin: 0px;
+}
+
+.likesCount,
+.descriptionSection {
+  padding: 0px 0px 0px 16px;
+  margin: 0px 0px 8px;
+}
+
+.descriptionSection {
+  margin: 0px;
+}
+
+.description {
+  font-weight: normal;
+  word-break: break-word;
+}
+
+.myCommentSection {
+  max-height: 100px;
+  overflow-y: scroll;
+}
+
+.commentList {
+  padding: 0px 0px 0px 16px;
+  margin: 2px 0px;
+}
+
+.comment {
+  font-weight: normal;
+}
+
+.writeComment {
+  padding: 1px 16px 1px 16px;
+  border-top: 1px solid #efefef;
+  display: flex;
+}
+
+.typeYourComment {
+  display: flex;
+  height: 56px;
+  width: 100%;
+}
+
+.enterComment {
+  width: 100%;
+  border: none;
+  background-color: white;
+  padding: 0px;
+  font-size: 14px;
+}
