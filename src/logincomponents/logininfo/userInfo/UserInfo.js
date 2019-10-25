@@ -49,7 +49,7 @@ class UserInfo extends React.Component {
     } = this.state;
     const { handleOnChange } = this;
     return (
-      <form className="userInfo">
+      <div className="userInfo">
         <InputPassUser
           name="userInputValue"
           value={userInputValue}
@@ -76,7 +76,7 @@ class UserInfo extends React.Component {
           passwordInputValue={passwordInputValue}
           opacity={buttonOpacity}
         />
-      </form>
+      </div>
     );
   }
 }
