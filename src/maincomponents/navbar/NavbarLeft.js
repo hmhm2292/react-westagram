@@ -7,6 +7,8 @@ function NavbarLeft(props) {
     <div className="navBarLeft">
       <span className="cameraLogo">
         <button
+          style={{ border: "none" }}
+          className="logoButton"
           onClick={() => {
             localStorage.removeItem("first-token");
             props.history.push("/");
